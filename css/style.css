@@ -1,0 +1,65 @@
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+    color: #ccc;
+    border:2px dashed #ccc;
+    line-height: 200px;
+    text-align: center
+}
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}
+
+.item{
+    width: 330px;
+    border: 5px solid rgb(65,113,156) ;
+    padding: 1px;
+    display: inline-block;
+    align-content: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.item-head{
+    width: 100%;
+    border: 5px solid rgb(0,176,80);
+    /*border-radius: 5px;*/
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-body{
+    padding: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.item-body table td{
+    padding: 5px;
+}
+.item-body table tr{
+    padding: 2px !important;
+}
+
+.item-body-value{
+    text-align: center;
+    border: 1px solid #777777;
+}
+
+
+.item-msg{
+    text-align: center;
+    color: rgb(91,155,213);
+    font-weight: bold;
+    font-size: 16px;
+}
